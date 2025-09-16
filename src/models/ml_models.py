@@ -15,6 +15,5 @@ def get_advanced_ml_models():
     """Advanced ML models for text."""
     return {
         'RandomForest': RandomForestClassifier(random_state=42),
-        'XGBoost': XGBClassifier(random_state=42, eval_metric='logloss'),
-        'CatBoost': CatBoostClassifier(random_state=42, verbose=0)
+        'XGBoost': XGBClassifier(random_state=42, eval_metric='logloss')
     }
