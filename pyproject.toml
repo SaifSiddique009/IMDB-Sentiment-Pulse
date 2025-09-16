@@ -1,0 +1,19 @@
+[project]
+name = "imdb-movie"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.8",
+    "matplotlib>=3.10.6",
+    "nltk>=3.9.1",
+    "numpy>=2.3.3",
+    "optuna>=4.5.0",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.20.0",
+    "wordcloud>=1.9.4",
+    "xgboost>=3.0.5",
+]
